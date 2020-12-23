@@ -54,6 +54,12 @@ a {
 }
 
 
+
+header, section {
+    margin: 1% 2% -1% 2%;
+  
+}
+
 #container1
 {
     display: flex;
@@ -70,11 +76,20 @@ nav ul li {
     padding: 10%;
 }
 
+
 nav ul li a:hover{
     color: blue;
+    
 }
 
 #container3
 {
     display: flex;
+}
+
+.seach {
+    padding:0.3%;
+    color: white;
+    background: blue;
+    border: none
 }

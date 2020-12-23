@@ -48,12 +48,15 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+
 a {
     text-decoration: none;
     color: black;
 }
-
-
 
 header, section {
     margin: 1% 2% -1% 2%;
@@ -79,7 +82,7 @@ nav ul li {
 
 nav ul li a:hover{
     color: blue;
-    
+    border-top: solid blue 1px;
 }
 
 #container3
@@ -92,4 +95,35 @@ nav ul li a:hover{
     color: white;
     background: blue;
     border: none
+}
+
+form {
+    border-radius: 0 8px 8px 0
+}
+
+article {
+    display: flex
+}
+
+article a ul li img {
+    width: 15%;
+}
+
+#section1 {
+    display: flex
+}
+
+#marseille {
+    background-color: gray;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#populaire {
+    background-color: gray;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
 }

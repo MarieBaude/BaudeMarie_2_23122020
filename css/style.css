@@ -79,7 +79,7 @@ header ul li {
 header ul li a:hover{
     color: blue;
     border-top: solid blue 2px;
-    padding-top: 37%;
+    padding-top: 30%;
 }
 
 .last_list_menu{
@@ -102,16 +102,22 @@ h3 {
 }
 
 #search {
-    
+    margin-bottom: 1%;
 }
+
+#icon_position {
+    background: grey;
+}
+
+#button_search {
+    color: white;
+    background: blue;
+    border: none;
+}
+
+
 
 /*
-
-#container3
-{
-    display: flex;
-}
-
 /* Section */ /*
 .seach {
     padding:0.3%;

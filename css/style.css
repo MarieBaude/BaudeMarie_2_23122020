@@ -1,4 +1,4 @@
-
+/* Clean up */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,7 +26,8 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-	line-height: 1;
+    line-height: 1;
+    font-family: sans-serif;
 }
 
 ol, ul {
@@ -49,47 +50,69 @@ table {
 }
 
 
-
-
-
-
+/* Start */
 a {
     text-decoration: none;
     color: black;
 }
 
-header, section {
-    margin: 1% 2% -1% 2%;
-  
+
+/* Header */
+header, nav {
+    margin: 1% 0 -1% 0;
 }
 
-#container1
+header
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-#container2
-{
+header ul {
     display: flex;
-    justify-content: flex-end;
 }
 
-nav ul li {
-    padding: 10%;
+header ul li {
+    padding: 8%;
 }
 
-
-nav ul li a:hover{
+header ul li a:hover{
     color: blue;
-    border-top: solid blue 1px;
+    border-top: solid blue 2px;
+    padding-top: 37%;
 }
+
+.last_list_menu{
+    color: blue;
+}
+
+/* Navigation */
+nav {
+    margin: 2% 0 0 21%;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: smaller;
+    margin: 0.6% 0;
+}
+
+#search {
+    
+}
+
+/*
 
 #container3
 {
     display: flex;
 }
 
+/* Section */ /*
 .seach {
     padding:0.3%;
     color: white;
@@ -127,3 +150,7 @@ article a ul li img {
     display: flex;
     flex-direction: column;
 }
+
+*/
+
+/* Footer */ 

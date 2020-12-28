@@ -62,8 +62,6 @@ a {
 }
 
 
-
-
 /* Header */
 header {
     display: flex;
@@ -75,7 +73,7 @@ header ul {
 }
 
 header ul li{
-    padding: 30px
+    padding: 30px 0 30px 30px;
 }
 
 header ul li a:hover{
@@ -88,7 +86,7 @@ header ul li a:hover{
     color: #0065FC;
 }
 
-/*  */
+/* Partie recherche */
 
 h2 {
     font-weight: bold;
@@ -97,50 +95,47 @@ h2 {
 h3 {
     font-weight: lighter;
     font-size: 0.7em;
-
+    margin-top: 8px;
 }
 
-/* Barre de recherche */
-#search {
-
+.search {
+    margin: 15px 0;
 }
 
-nav form label{
-    background: #F2F2F2;
-
-}
-
-#input_search {
-
-}
-
-#button_search {
+.button_search {
     color: white;
     font-weight: bold;
     background: #0065FC;
     border: none;
-  
     cursor: pointer;
 }
 
+
 /* Filtres */
+.filter {
+    display: flex;
+}
+
+.button_filter {
+    background: white;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    border: solid #F2F2F2 1px;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+}
+
+.button_filter:hover {
+    background: #DEEBFF;
+}
+
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog, .fa-info {
     color: #0065FC;
 }
 
-#filtres {
-    display: flex;
-}
-
-#filtres li {
-    display: flex;
-    border: solid #F2F2F2 1px;
-    border-radius: 2%;
-}
-
-#filtres li span{
-    padding: 0 1%;
-    margin: 0 2%;
+.filter .fas {
     background: #DEEBFF;
     border-radius: 50%;
     width: 2.4em;
@@ -150,18 +145,6 @@ nav form label{
     align-items: center;
 }
 
-#filtres li button {
-    padding: 1%;
-    cursor: pointer;
-    border: none;
-    background: white;
-}
-
-#filtres li button:hover {
-    background: #DEEBFF;
-    border: none;
-
-}
 
 /* Ligne d'info */ 
 .fa-info {
@@ -170,21 +153,20 @@ nav form label{
 
 .info {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 10px;
+}
+
+.bulle_info {
     border: #acacac solid 1px;
     border-radius: 50%;
     width: 0.9em;
     height: 0.9em;
-}
-
-div {
     display: flex;
     align-items: center;
-    margin-top: 2%;
+    justify-content: center;
+    margin-right: 5px;
 }
 
-div h3 {
-    margin-left: 0.5%;
-}
+
+
 

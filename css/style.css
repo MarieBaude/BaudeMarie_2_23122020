@@ -77,13 +77,13 @@ header ul li {
 }
 
 header ul li a:hover{
-    color: blue;
-    border-top: solid blue 2px;
+    color: #0065FC;
+    border-top: solid #0065FC 2px;
     padding-top: 30%;
 }
 
 .last_list_menu{
-    color: blue;
+    color: #0065FC;
 }
 
 /* Navigation */
@@ -97,7 +97,7 @@ h2 {
 
 h3 {
     font-weight: lighter;
-    font-size: smaller;
+    font-size: 0.7em;
     margin: 0.6% 0;
 }
 
@@ -107,7 +107,7 @@ h3 {
 }
 
 nav form label{
-    background: grey;
+    background: #F2F2F2;
     padding: 0.8%;
     border-radius: 20% 0 0 20%;
 }
@@ -120,14 +120,77 @@ nav form label{
 #button_search {
     color: white;
     font-weight: bold;
-    background: blue;
+    background: #0065FC;
     border: none;
     padding: 0.9%;
     border-radius: 0 20% 20% 0;
+    cursor: pointer;
 }
 
 /* Filtres */
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog, .fa-info {
+    color: #0065FC;
+}
 
+#filtres {
+    display: flex;
+}
+
+#filtres li {
+    display: flex;
+    border: solid #F2F2F2 1px;
+    border-radius: 2%;
+}
+
+#filtres li span{
+    padding: 0 1%;
+    margin: 0 2%;
+    background: #DEEBFF;
+    border-radius: 50%;
+    width: 2.4em;
+    height: 2.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#filtres li button {
+    padding: 1%;
+    cursor: pointer;
+    border: none;
+    background: white;
+}
+
+#filtres li button:hover {
+    background: #DEEBFF;
+    border: none;
+
+}
+
+/* Ligne d'info */ 
+.fa-info {
+    font-size: 0.5em;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #acacac solid 1px;
+    border-radius: 50%;
+    width: 0.9em;
+    height: 0.9em;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+}
+
+span h3 {
+    margin-left: 0.5%;
+}
 
 /*
 /* Section */ /*

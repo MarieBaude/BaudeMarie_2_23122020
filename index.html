@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="css/style.css" />
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
         <title>Reservia</title>
     </head>
 
@@ -20,18 +21,44 @@
             <h2>Trouvez votre hébergement pour des vacances de rêve</h1>
             <h3>En plein centre ville ou en pleine nature</h3>
             <form id="search">
-                <label><!--icon localisation-->icon</label>
+                <label><i class='fas fa-map-marker-alt'></i></label>
                 <input type="text" id="input_search" placeholder="Marseille, France">
                 <input type="submit" id="button_search" value="Rechercher">  
             </form> 
-            <ul id="filtre">
-                <li>Filtres</li> 
-                <li><!--icon billet--><button>Economique</button></li>
-                <li><!--icon bonhomme--><button>Familial</button></li> 
-                <li><!--icon coeur--><button>Romantique</button></li>
-                <li><!--icon chien--><button>Animaux autorisés</button></li>
+            <ul id="filtres">
+                <h2>Filtres</h2> 
+                <li>
+                    <span>
+                        <i class='fas fa-money-bill-wave'></i>
+                    </span>
+                    <button>Economique</button>
+                </li>
+                <li>
+                    <span>
+                        <i class='fas fa-child'></i>
+                    </span>
+                    <button>Familial</button>
+                </li> 
+                <li>
+                    <span>
+                        <i class='fas fa-heart'></i>
+                    </span>
+                    <button>Romantique</button>
+                </li>
+                <li>
+                    <span>
+                        <i class='fas fa-dog'></i>
+                    </span>
+                    <button>Animaux autorisés</button>
+                </li>
             </ul>
-            <h4>Plus de 500 logements sont disponible dans cette ville</h4>
+            <span>
+                <div class="info">
+                    <i class='fas fa-info'></i>
+                </div>
+                <h3>Plus de 500 logements sont disponible dans cette ville.</h3>
+            </span>
+            
         </nav>
         
         <!-- <section id="section1">

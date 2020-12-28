@@ -101,20 +101,32 @@ h3 {
     margin: 0.6% 0;
 }
 
+/* Barre de recherche */
 #search {
     margin-bottom: 1%;
 }
 
-#icon_position {
+nav form label{
     background: grey;
+    padding: 0.8%;
+    border-radius: 20% 0 0 20%;
+}
+
+#input_search {
+    padding: 0.7%;
+    margin: 0 -0.3%;
 }
 
 #button_search {
     color: white;
+    font-weight: bold;
     background: blue;
     border: none;
+    padding: 0.9%;
+    border-radius: 0 20% 20% 0;
 }
 
+/* Filtres */
 
 
 /*

@@ -127,6 +127,11 @@ h3 {
 /* Filtres */
 .filter {
     display: flex;
+    align-items: center;
+}
+
+.filter h2 {
+    margin-right: 15px;
 }
 
 .button_filter {
@@ -139,6 +144,7 @@ h3 {
     padding: 0 10px 0 0;
     display: flex;
     align-items: center;
+    margin-right: 15px;
 }
 
 .button_filter:hover {
@@ -239,6 +245,21 @@ h3 {
     margin-top: 3px;
 }
 
+.title_container2{
+    margin-left: 18px;
+    font-size: 16px;
+}
+
+.marseille h4 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 0 0 18px
+}
+
+.card h2, .card2 h2 {
+    font-size: 12px;
+}
+
 /* Populaires */
 .populaires_title {
     display: flex;
@@ -276,6 +297,10 @@ h3 {
 
 .star_card2 {
     margin-top: 25px;
+}
+
+.title_populaire {
+    margin-left: 4px;
 }
 
 /*Contenant 3*/

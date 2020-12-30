@@ -336,11 +336,11 @@ footer {
     background: #F2F2F2;
     margin-top: 45px;
     display: flex;
-    padding: 20px 0 20px 46px;
+    padding: 20px 0 30px 46px;
 }
 
 .footer_ul {
-    
+    width: 400px;
 }
 
 footer div ul li {

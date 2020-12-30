@@ -276,7 +276,7 @@ h3 {
 .img_type_1, .img_type_2, .img_type_3, .img_type_4 {
     object-fit: cover;
     border-radius: 15px 15px 0 0;
-    width: 255px; 
+    width: 255px;
 }
 
 .img_type_1 {
@@ -294,3 +294,18 @@ h3 {
 .img_type_4 {
     height: 135px;
 }
+
+h4 {
+    margin: 10px 15px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.card_activity_1 {
+    width: 255px;
+    height: 330px;
+    box-shadow: 2px 2px 5px #e6e6e6;
+    border-radius: 15px;
+}
+
+

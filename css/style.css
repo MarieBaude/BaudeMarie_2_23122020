@@ -374,7 +374,7 @@ h3 {
 }
 
 .card_activity_4 {
-    height: 145px;
+    height: 150px;
 }
 
 .card_activity_2, .card_activity_4:first-child {
@@ -403,4 +403,32 @@ footer div ul li {
 footer h4 {
     font-size: small;
     font-weight: bold;
+}
+
+
+/*Responsive*/
+/*tablette
+@media screen and (max-width: 1240px) {
+    .container {
+        max-width: 800px;
+        margin: auto;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .marseille, .populaires {
+        width: 750px;
+        margin-bottom: 20px;
+    }
+}*/
+
+/*mobile*/
+@media all and (max-width: 480px) {
+    header ul li a:hover{
+        color: #0065FC;
+        border-top: none;
+        border-bottom: solid #0065FC 3px;
+        padding-top : 28px;
+    }
 }

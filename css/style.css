@@ -299,7 +299,7 @@ h3 {
     height: 105px;
 }
 
-h4 {
+.container3 h4 {
     margin: 10px 15px;
     font-size: small;
     font-weight: bold;
@@ -335,15 +335,22 @@ h4 {
 footer {
     background: #F2F2F2;
     margin-top: 45px;
-    display: flex;
-    padding: 20px 0 30px 46px;
+    padding: 20px 0;
 }
 
-.footer_ul {
-    width: 400px;
+.footer_size {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer div ul li {
     font-size: small;
-    margin: 8px 14px;
+    margin: 8px 0;
+}
+
+footer h4 {
+    font-size: small;
+    font-weight: bold;
 }

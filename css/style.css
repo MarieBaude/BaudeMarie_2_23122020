@@ -279,12 +279,16 @@ h3 {
     width: 255px;
 }
 
+.first{
+    object-position: top;
+}
+
 .img_type_1 {
     height: 290px;
 }
 
 .img_type_2 {
-    height: 155px;
+    height: 135px;
 }
 
 .img_type_3 {
@@ -292,7 +296,7 @@ h3 {
 }
 
 .img_type_4 {
-    height: 135px;
+    height: 105px;
 }
 
 h4 {
@@ -301,11 +305,28 @@ h4 {
     font-weight: bold;
 }
 
-.card_activity_1 {
+.card_activity_1, .card_activity_2, .card_activity_3, .card_activity_4 {
     width: 255px;
-    height: 330px;
     box-shadow: 2px 2px 5px #e6e6e6;
     border-radius: 15px;
 }
 
+.card_activity_1 {
+    height: 330px;
+}
 
+.card_activity_2 {
+    height: 175px;
+}
+
+.card_activity_3 {
+    height: 125px;
+}
+
+.card_activity_4 {
+    height: 145px;
+}
+
+.card_activity_2, .card_activity_4:first-child {
+    margin-bottom: 30px;
+}

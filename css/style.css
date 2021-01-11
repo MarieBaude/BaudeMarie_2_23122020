@@ -60,6 +60,7 @@ a {
 .container {
     max-width: 1200px;
     margin: auto;
+    padding: 0 20px;
 }
 
 /* Header */
@@ -93,7 +94,10 @@ h2 {
 
 h3 {
     font-weight: lighter;
-    font-size: 11px;
+    font-size: 13px;
+}
+
+.under_title {
     margin-top: 8px;
 }
 
@@ -178,7 +182,6 @@ h3 {
 .info {
     display: flex;
     align-items: center;
-    justify-items: center;
     margin-top: 10px;
 }
 

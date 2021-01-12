@@ -225,7 +225,7 @@ h3 {
 
 /* Hébergements */ 
 .marseille {
-    width: 795px;
+    width: 790px;
 }
 
 .pack_card {
@@ -242,6 +242,7 @@ h3 {
     border-radius: 15px;
     margin: 10px;
     padding: 4px;
+    display: block;
 }
 
 .img_card {
@@ -251,12 +252,25 @@ h3 {
     border-radius: 15px 15px 0 0;
 }
 
+.card h2, .card2 h2 {
+    font-size: 12px;
+    margin: 5px 0 -2px 12px
+}
+
+.card h3, .card2 h3 {
+    font-size: 11px;
+}
+
 .card h3 {
-    margin-top: 3px;
+    margin: 5px 12px;
+}
+
+.star {
+    margin: -6px 12px;
 }
 
 .title_container2{
-    margin-left: 18px;
+    margin: 0 0 3px 18px;
     font-size: 16px;
 }
 
@@ -264,10 +278,12 @@ h3 {
     font-size: 14px;
     font-weight: bold;
     margin: 15px 0 0 18px
-}
+}  
 
-.card h2, .card2 h2 {
-    font-size: 12px;
+.marseille > a {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 12px;
 }
 
 /* Populaires */
@@ -302,11 +318,16 @@ h3 {
 .card2_text {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 5px;
 }
 
 .star_card2 {
-    margin-top: 25px;
+    margin-left: 12px;
+}
+
+.card2 h3 {
+    margin: 10px 12px;
 }
 
 .title_populaire {
@@ -316,6 +337,7 @@ h3 {
 .fa-chart-line {
     margin-right: 10px;
 }
+
 
 /*Contenant 3*/
 .container3 {

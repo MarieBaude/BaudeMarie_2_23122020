@@ -554,7 +554,7 @@ footer h4 {
         flex-wrap: wrap-reverse;
     }
     h1 {
-        font-size: 25px;
+        font-size: 22px;
         font-weight: bold;
     }
     .under_title {
@@ -640,5 +640,45 @@ footer h4 {
         width: 95%;
         height: 190px;
         box-shadow: 2px 2px 5px #e6e6e6;
+    }
+    .card h3 {
+        margin: 9px 12px;
+    }
+    .star {
+        margin: -4px 12px;
+    }
+    .marseille > .title_container2 {
+        margin-bottom: 10px;
+    }
+    .marseille > a {
+        font-size: 17px; 
+    }
+    /*Activité - Container 3*/
+    .container3 h2 {
+        font-size: 22px;
+    }
+    .activity {
+        flex-direction: column;
+    }
+    .activity_columnA, .activity_columnB {
+        width: 100%;
+    }
+    .container3 h4 {
+        font-size: 15px;
+        margin: 12px 15px;
+    }
+    /*Footer*/
+    .footer_size {
+        flex-direction: column;
+    }
+    footer h4 {
+        font-size: 18px;
+    }
+    .footer_ul ul {
+        margin-bottom: 30px;
+    }
+    .footer_ul ul li {
+        font-size: 16px;
+        
     }
 }

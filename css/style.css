@@ -536,5 +536,52 @@ footer h4 {
 
 }
 
-
 /*mobile*/
+@media screen and (max-width: 650px) {
+    header ul li a{
+        border-bottom: solid #acacac 3px; 
+        padding: 10px;
+    }
+    .last_list_menu {
+        border-bottom: none;
+    }
+    header ul li a:hover{
+        color: #0065FC;
+        border-top: none;
+        border-bottom: solid #0065FC 3px;  
+    }
+    header ul {
+        flex-wrap: wrap-reverse;
+    }
+    h1 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .under_title {
+        font-size: 17px;
+    }
+    .filter {
+        display: flow-root;
+    }
+    .pack_button_filter {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .button_filter {
+        margin: 5px;
+        font-size: 15px;
+
+    }
+    .filter > h2 {
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .bulle_info {
+        width: 25px;
+        height: 21px;
+        margin-right: 10px;
+    }
+}

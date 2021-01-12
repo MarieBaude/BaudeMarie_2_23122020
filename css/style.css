@@ -462,7 +462,30 @@ footer h4 {
     .marseille > a {
         margin-left: 50px;
     }
-
+    /*Container 3 - Activité*/
+    .activity_columnA, .activity_columnB {
+        flex-direction: column;
+    }
+    .card_activity_1, .card_activity_2, .card_activity_3, .card_activity_4 {
+        height: 175px;
+        width: 475px;;
+    }
+    .img_type_1, .img_type_2, .img_type_3, .img_type_4 {
+        height: 130px;
+        width: 100%;
+    }
+    .activity {
+        flex-wrap: wrap;
+    }
+    .card_activity_1 {
+        margin: 0 0 25px 0;
+    } 
+    .footer_size {
+        max-width: 1000px;
+    }
+    .footer_ul {
+        margin-right: 150px;
+    }
 }
 
 

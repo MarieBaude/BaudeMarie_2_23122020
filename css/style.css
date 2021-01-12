@@ -341,7 +341,7 @@ h3 {
 
 /*Contenant 3*/
 .container3 {
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .container3 h2 {
@@ -423,7 +423,7 @@ footer {
 
 .footer_size {
     max-width: 1200px;
-    margin: auto;
+    margin: 15px auto;
     display: flex;
 }
 
@@ -437,8 +437,9 @@ footer div ul li {
 }
 
 footer h4 {
-    font-size: small;
+    font-size: 13px;
     font-weight: bold;
+    margin-bottom: 15px;
 }
 
 

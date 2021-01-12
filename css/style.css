@@ -500,10 +500,11 @@ footer h4 {
     /*Container 3 - Activité*/
     .activity_columnA, .activity_columnB {
         flex-direction: column;
+        width: 49%;
     }
     .card_activity_1, .card_activity_2, .card_activity_3, .card_activity_4 {
         height: 175px;
-        width: 460px;;
+        width: auto;
     }
     .img_type_1, .img_type_2, .img_type_3, .img_type_4 {
         height: 130px;
@@ -514,7 +515,25 @@ footer h4 {
     }
     .card_activity_1 {
         margin: 0 0 25px 0;
-    } 
+    }
+    .marseille {
+        width: auto;
+        margin-right: 0;
+    }
+    .pack_card2, .pack_card {
+        justify-content: space-around;
+    }
+    .marseille > .title_container2, .marseille > a {
+        margin-left: 15px;
+    }
+    .footer_size {
+        max-width: 960px;
+        padding-left: 20px;
+    }
+    .footer_ul {
+        margin-right: auto;
+    }
+
 }
 
 

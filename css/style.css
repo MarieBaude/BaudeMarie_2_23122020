@@ -445,13 +445,13 @@ footer h4 {
 }
 
 
-/*Responsive*/
-/*tablette*/
-
+/*RESPONSIVE*/
+/*petit écran*/
 @media screen and (max-width: 1210px)
 {
     .marseille {
         width: 600px;
+        margin-right: 11px;
     }
     .container {
         max-width: 1000px;
@@ -461,6 +461,41 @@ footer h4 {
     }
     .marseille > a {
         margin-left: 50px;
+    }  
+    .footer_size {
+        max-width: 1000px;
+    }
+    .footer_ul {
+        margin-right: 150px;
+    }
+    .card_activity_1, .card_activity_2, .card_activity_3, .card_activity_4 {
+        width: 220px;
+    }
+    .card_activity_1 {
+        margin-right: 40px;
+    }
+}
+
+/*tablette*/
+@media screen and (max-width: 1028px) {
+    .container {
+        max-width: 960px;
+    }
+    .container2 {
+        flex-direction: column-reverse;
+    }
+    .filter h2 {
+        margin-right: 20px;
+    }
+    .button_filter {
+        margin-right: 20px;
+    }
+    .pack_card2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .populaires {
+        margin-bottom: 30px;
     }
     /*Container 3 - Activité*/
     .activity_columnA, .activity_columnB {
@@ -468,7 +503,7 @@ footer h4 {
     }
     .card_activity_1, .card_activity_2, .card_activity_3, .card_activity_4 {
         height: 175px;
-        width: 475px;;
+        width: 460px;;
     }
     .img_type_1, .img_type_2, .img_type_3, .img_type_4 {
         height: 130px;
@@ -480,12 +515,6 @@ footer h4 {
     .card_activity_1 {
         margin: 0 0 25px 0;
     } 
-    .footer_size {
-        max-width: 1000px;
-    }
-    .footer_ul {
-        margin-right: 150px;
-    }
 }
 
 

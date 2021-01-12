@@ -64,6 +64,9 @@ a {
 }
 
 /* Header */
+.last_list_menu2 {
+    display: none;
+}
 h1 {
     margin-top: 20px;
 }
@@ -87,7 +90,7 @@ header ul li a:hover{
     padding-top : 28px;
 }
 
-.last_list_menu{
+.responsive_none > a{
     color: #0065FC;
 }
 
@@ -540,20 +543,33 @@ footer h4 {
 
 /*mobile*/
 @media screen and (max-width: 650px) {
+    .container0 {
+        display: flex;
+        flex-direction: column;
+    }
+    .last_list_menu2 {
+        color: #0065FC;
+        padding: 30px 0;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .logo > img {
+        padding: 10px;
+    }
     header ul li a{
         border-bottom: solid #acacac 3px; 
         padding: 10px;
     }
-    .last_list_menu {
+    .responsive_none {
         border-bottom: none;
     }
-    header ul li a:hover{
+    .menu li a:hover{
         color: #0065FC;
         border-top: none;
         border-bottom: solid #0065FC 3px;  
     }
     header ul {
-        flex-wrap: wrap-reverse;
+        justify-content: space-between;
     }
     h1 {
         font-size: 22px;
@@ -562,6 +578,17 @@ footer h4 {
     .under_title {
         font-size: 17px;
     }
+    .responsive_none {
+        display: none;
+    }
+    .last_list_menu2 {
+        display: block;
+    }
+    .logo {
+        display: flex;
+        justify-content: space-between;
+    }
+
     /*Barre de recherche*/
     .search {
         justify-content: space-around;
@@ -569,11 +596,11 @@ footer h4 {
     .fa-map-marker-alt {
         font-size: 18px;
         padding: 15px;
-        border-radius: 20px 0 0 20px;
+        border-radius: 15px 0 0 15px;
     }
     .input_search {
         height: 26px;
-        width: 255px;
+        width: 100%;
     }
     .button_search {
         display: none;
@@ -581,7 +608,7 @@ footer h4 {
     .button_search2 {
         display: unset;
         height: 48px;
-        width: 50px;
+        width: 53px;
         border-radius: 15px;
         background-color: #0065FC;
         border: none;
@@ -612,7 +639,7 @@ footer h4 {
         font-size: 15px;
     }
     .bulle_info {
-        width: 25px;
+        width: 21px;
         height: 21px;
         margin-right: 10px;
     }
@@ -713,8 +740,3 @@ footer h4 {
         font-size: 16px;
     }
 }
-
-
-/*
-
-*/

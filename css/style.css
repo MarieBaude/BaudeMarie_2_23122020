@@ -387,6 +387,7 @@ h3 {
 }
 
 .card_activity_1, .card_activity_2, .card_activity_3, .card_activity_4 {
+    display: block;
     width: 255px;
     box-shadow: 2px 2px 5px #e6e6e6;
     border-radius: 15px;
@@ -412,6 +413,7 @@ h3 {
     margin-bottom: 30px;
 }
 
+
 /*Footer*/
 footer {
     background: #F2F2F2;
@@ -423,7 +425,10 @@ footer {
     max-width: 1200px;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+}
+
+.footer_ul {
+    margin-right: 240px;
 }
 
 footer div ul li {

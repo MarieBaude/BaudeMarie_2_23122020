@@ -339,7 +339,7 @@ h3 {
 }
 
 
-/*Contenant 3*/
+/*Contenant 3 Activité*/
 .container3 {
     margin-top: 50px;
 }
@@ -348,10 +348,11 @@ h3 {
     margin-bottom: 20px;
 }
 
-.activity {
+.activity, .activity_columnA, .activity_columnB {
     display: flex;
+}
+.activity {
     justify-content: space-between;
-    flex-wrap: nowrap; 
 }
 
 .img_type_1, .img_type_2, .img_type_3, .img_type_4 {
@@ -395,6 +396,7 @@ h3 {
 
 .card_activity_1 {
     height: 330px;
+    margin-right: 60px;
 }
 
 .card_activity_2 {
@@ -460,17 +462,7 @@ footer h4 {
     .marseille > a {
         margin-left: 50px;
     }
-    .card_activity_1, .card_activity_2, .card_activity_3, .card_activity_4 {
-        height: 175px;
-        width: 480px;;
-    }
-    .img_type_1, .img_type_2, .img_type_3, .img_type_4 {
-        height: 130px;
-        width: 100%;
-    }
-    .activity {
-        flex-wrap: wrap;
-    }
+
 }
 
 

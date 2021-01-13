@@ -143,6 +143,9 @@ h3 {
     display: flex;
     align-items: center;
 }
+.pack_button_filter {
+    display: flex;
+}
 
 .filter h2 {
     margin-right: 30px;
@@ -623,7 +626,6 @@ footer h4 {
         display: block;
     }
     .pack_button_filter {
-        display: flex;
         flex-wrap: wrap;
     }
     .button_filter {

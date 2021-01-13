@@ -546,7 +546,7 @@ footer h4 {
 
 /*mobile*/
 @media screen and (max-width: 650px) {
-    .container0 {
+    header {
         display: flex;
         flex-direction: column;
     }
@@ -557,19 +557,23 @@ footer h4 {
         font-weight: bold;
     }
     .logo > img {
-        padding: 10px;
+        padding: 10px 0;
     }
     header ul li a{
-        border-bottom: solid #acacac 3px; 
         padding: 10px;
     }
     .responsive_none {
         border-bottom: none;
     }
     .menu li a:hover{
+        border-top: none;  
+    }
+    .menu li {
+        border-bottom: solid #acacac 3px; 
+    }
+    .menu li:hover {
         color: #0065FC;
-        border-top: none;
-        border-bottom: solid #0065FC 3px;  
+        border-bottom: solid #0065FC 3px;
     }
     header ul {
         justify-content: space-between;

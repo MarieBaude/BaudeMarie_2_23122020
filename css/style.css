@@ -528,7 +528,7 @@ footer h4 {
         width: auto;
         margin-right: 0;
     }
-    .pack_card2, .pack_card {
+    .pack_card {
         justify-content: space-around;
     }
     .marseille > .title_container2, .marseille > a {

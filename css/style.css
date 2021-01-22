@@ -27,7 +27,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     line-height: 1;
-    font-family: sans-serif;
 }
 
 ol, ul {
@@ -56,6 +55,13 @@ a {
 /* Fin reset */
 
 /*Typo*/
+@font-face {
+    font-family: 'Raleway';
+    src: url('Font/Raleway-Regular.ttf');
+    src: url('Font/Raleway-Bold.ttf');
+    src: url('Font/Raleway-Light.ttf');
+}
+
 body {
     font-family: 'Raleway', sans-serif;
 }

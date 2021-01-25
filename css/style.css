@@ -58,11 +58,31 @@ a {
 @font-face {
     font-family: 'Raleway';
     src: url('Font/Raleway-Regular.ttf');
-    src: url('Font/Raleway-Bold.ttf');
-    src: url('Font/Raleway-Light.ttf');
+    font-weight: normal;
 }
+
+@font-face {
+    font-family: 'Raleway-light';
+    src: url('Font/Raleway-Light.ttf');
+    font-weight: lighter;
+}
+@font-face {
+    font-family: 'Raleway-bold';
+    src: url('Font/Raleway-Bold.ttf');
+    font-weight: bold;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, span {
+    font-family: 'Raleway-bold', sans-serif;
+}
+
+h3 {
+    font-family: 'Raleway-light';
+    font-size: 13px;
 }
 
 /* Container */
@@ -114,14 +134,6 @@ header ul li a:hover{
 /* Partie recherche */
 .button_search2 {
     display: none;
-}
-h2 {
-    font-weight: bold;
-}
-
-h3 {
-    font-weight: lighter;
-    font-size: 13px;
 }
 
 .under_title {

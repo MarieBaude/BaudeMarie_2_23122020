@@ -121,7 +121,7 @@ header ul li a {
 header ul li a:hover{
     color: #0065FC;
     border-top: solid #0065FC 3px;
-    padding : 27px 20px 0 20px;
+    padding : 26px 20px 0 20px;
 }
 
 .responsive_none > a{
